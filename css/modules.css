@@ -1,0 +1,63 @@
+#a {
+  height: 75px;
+}
+
+#b {
+  height: 150px;
+}
+
+#c, #d {
+  height: 125px;
+  clear: both;
+}
+
+.ef, .gh {
+  display: inline-block;
+}
+
+#e, #g {
+  float: left;
+  width: 49.115%;
+}
+
+#f, #h {
+  width: 49.115%;
+}
+
+#i {
+  height: 80px;
+}
+
+@media all and (min-width: 768px) {
+  #a {
+    height: 100px;
+  }
+
+  #b {
+    float: left;
+    width: 185px;
+    height: 600px;
+  }
+
+  #cdefghi {
+    float: right;
+    width: 745px;
+  }
+
+  #c {
+    float: left;
+    width: 200px;
+    height: 380px;
+  }
+
+  #bigsection, #cd {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  #desktopcdefghi {
+    width: 740px;
+    height: 600px;
+  }
+}
