@@ -16,3 +16,9 @@ div {
 .ef, .gh {
   height: 250px;
 }
+
+@media all and (min-width: 768px) {
+  html {
+    width: 960px;
+  }
+}
