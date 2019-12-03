@@ -2,6 +2,10 @@
     background-color: lightgray;
 }
 
-section {
+section, article {
     border: 2px solid black;
+}
+
+main {
+    width: 480px;
 }
