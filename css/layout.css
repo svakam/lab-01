@@ -8,6 +8,11 @@ section, article {
   text-align: center;
 }
 
+div {
+  position: relative;
+  top: 43%;
+}
+
 .ef, .gh {
   height: 250px;
 }
