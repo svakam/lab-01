@@ -1,0 +1,29 @@
+#a {
+  height: 75px;
+}
+
+#b {
+  height: 150px;
+}
+
+#c, #d {
+  height: 125px;
+  clear: both;
+}
+
+.ef, .gh {
+  display: inline-block;
+}
+
+#e, #g {
+  float: left;
+  width: 49.132%;
+}
+
+#f, #h {
+  width: 49.132%;
+}
+
+#i {
+  height: 80px;
+}

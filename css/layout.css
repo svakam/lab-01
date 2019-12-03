@@ -1,7 +1,13 @@
-section {
-    text-align: center;
+html {
+  width: 480px;
+  margin: auto;
+  height: 767px;
 }
 
-section > article {
-    display: inline-block;
+section, article {
+  text-align: center;
+}
+
+.ef, .gh {
+  height: 250px;
 }
