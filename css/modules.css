@@ -8,7 +8,6 @@
 
 #c, #d {
   height: 125px;
-  clear: both;
 }
 
 .ef, .gh {
@@ -35,8 +34,8 @@
 
   #b {
     float: left;
-    width: 185px;
-    height: 600px;
+    width: 196px;
+    height: 614px;
   }
 
   #cdefghi {
@@ -46,18 +45,48 @@
 
   #c {
     float: left;
-    width: 200px;
-    height: 380px;
+    width: 367px;
+    height: 200px;
   }
 
-  #bigsection, #cd {
+  #d {
+    width: 367px;
+    height: 200px;
+    float: right;
+  }
+
+  #bigsection, #sectionefgh {
+    width: 945px;
     content: "";
     display: table;
     clear: both;
   }
 
+  #sectionefgh {
+    width: 745px;
+  }
+
   #desktopcdefghi {
     width: 740px;
     height: 600px;
+  }
+
+  #sectionef {
+    float: left;
+    width: 50%;
+  }
+
+  #sectiongh {
+    float: right;
+    width: 50%;
+  }
+
+  #e, #f, #g, #h {
+    width: 50%;
+    height: 250px;
+  }
+
+  #i {
+    height: 150px;
   }
 }
