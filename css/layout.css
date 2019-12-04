@@ -17,8 +17,99 @@ div {
   height: 250px;
 }
 
+#a {
+  height: 75px;
+}
+
+#b {
+  height: 150px;
+}
+
+#c, #d {
+  height: 125px;
+}
+
+.ef, .gh {
+  display: inline-block;
+}
+
+#e, #g {
+  float: left;
+  width: 49.115%;
+}
+
+#f, #h {
+  width: 49.115%;
+}
+
+#i {
+  height: 80px;
+}
+
 @media all and (min-width: 768px) {
   html {
     width: 960px;
+  }
+
+  #a {
+    height: 100px;
+  }
+
+  #b {
+    float: left;
+    width: 196px;
+    height: 614px;
+  }
+
+  #cdefghi {
+    float: right;
+    width: 745px;
+  }
+
+  #c {
+    float: left;
+    width: 375px;
+    height: 200px;
+  }
+
+  #d {
+    width: 375px;
+    height: 200px;
+    float: right;
+  }
+
+  #bigsection, #sectionefgh {
+    width: 945px;
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  #sectionefgh {
+    width: 745px;
+  }
+
+  #desktopcdefghi {
+    width: 740px;
+    height: 600px;
+  }
+
+  #sectionef {
+    float: left;
+    width: 50%;
+  }
+
+  #sectiongh {
+    float: right;
+    width: 50%;
+  }
+
+  #e, #f, #g, #h {
+    width: 50%;
+    height: 250px;
+  }
+
+  #i {
+    height: 150px;
   }
 }
